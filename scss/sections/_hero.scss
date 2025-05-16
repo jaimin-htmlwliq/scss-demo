@@ -1,0 +1,22 @@
+.hero {
+  background-color: $color-primary;
+  color: $color-bg;
+  padding: $spacing-xxl $spacing-lg;
+
+  &__content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  &__title {
+    font-family: $font-heading;
+    font-size: $font-xl;
+    margin-bottom: $spacing-sm;
+  }
+
+  &__subtitle {
+    font-size: $font-base;
+    font-family: $font-primary;
+    color: $color-accent;
+  }
+}
